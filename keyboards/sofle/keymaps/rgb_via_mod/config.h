@@ -16,6 +16,12 @@
 
 #pragma once
 
+// Save some space because we are using even less than 8 layers
+#define LAYER_STATE_8BIT
+
+// This keyboard has no music
+#define NO_MUSIC_MODE
+
 // Include the RGB matrix effects header files
 #ifdef RGB_MATRIX_ENABLE
 #define RGB_MATRIX_TIMEOUT 0
